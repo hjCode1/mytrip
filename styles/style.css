@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url(../fonts/Heebo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url(../fonts/Heebo-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+.lg-text {
+    font-family: 'Heebo', sans-serif;
+    font-size:80px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.md-text {
+    font-family: 'Heebo', sans-serif;
+    font-size:25px;
+    font-weight: normal;
+    color:#fff;
+}
+
 html, body {
     margin:0;
     padding:0;
@@ -83,12 +108,12 @@ button:hover {
 }
 
 #title-sub-text {
-    margin:5px auto;
+    margin:20px auto;
     text-align: center;
 }
 
 #search-panel {
-    margin:110px auto 570px;
+    margin:110px auto 0;
     padding:50px 70px 55px;
     left:0;
     right:0;

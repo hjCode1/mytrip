@@ -2,6 +2,7 @@ $(function(){
 
     var _w = $(window);
     var _header = $('#header');
+    var _from = $('#from');
 
     _w.scroll(function(){
         Header.move();
@@ -16,5 +17,11 @@ $(function(){
     }
 
     _w.trigger('scroll');
+
+    var dpFrom = _from.datepicker({
+        dateFormat: 'yy-mm-dd'
+    });
+    dpFrom.datepicker('setDate', new Date());
+
 
 });
