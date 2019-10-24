@@ -76,3 +76,61 @@ button:hover {
     min-height: 1000px;
     background: url(../image/bg_main.png) no-repeat 50% / cover;
 }
+
+#title-text {
+    padding:250px 0 0;
+    text-align: center;;
+}
+
+#title-sub-text {
+    margin:5px auto;
+    text-align: center;
+}
+
+#search-panel {
+    margin:110px auto 570px;
+    padding:50px 70px 55px;
+    left:0;
+    right:0;
+    width:1080px;
+    background:#fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+}
+
+.panel-block {
+    display: inline-block;
+    margin:0 17px 0 0;
+}
+
+.panel-block:last-of-type {
+    vertical-align: bottom;
+}
+
+#search-panel label {
+    display:block;
+    margin:0 0 10px;
+    font-size: 18px;
+    color:#000;
+}
+
+#search-panel input[type="text"] {
+    padding: 12px;
+    width:330px;
+    height:55px;
+    font-size:19px;
+    box-sizing: border-box;
+}
+
+#search-panel .btn-search {
+    width:210px;
+    height:55px;
+    font-size:18px;
+    color:#fff;
+    background: #4299e1;
+    border:0;
+}
+
+#search-panel .btn-search img {
+    vertical-align: middle;
+}
