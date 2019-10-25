@@ -159,3 +159,79 @@ button:hover {
 #search-panel .btn-search img {
     vertical-align: middle;
 }
+
+#ui-datepicker-div {
+    width:321px;
+}
+
+#list-bg {
+    display:none;
+    position: absolute;
+    top:880px;
+    background:#fff;
+    width:100%;
+    height: 100%;
+}
+
+#list-panel {
+    position: relative;
+    top:95px;
+    left:0;
+    right:0;
+    margin:0 auto 100px;
+    width:1080px;
+}
+
+#list-item-template {
+    display:none;
+}
+
+.list-item {
+    display:inline-block;
+    position: relative;
+    margin:0 24px 22px 0;
+    width:344px;
+}
+
+.list-item:hover {
+    cursor:pointer;
+}
+
+.list-item:nth-of-type(3n){
+    margin-right:0;
+}
+
+.list-item-image {
+    display: block;
+    width:344px;
+    height:210px;
+}
+
+.list-item-desc {
+    border:1px solid #eee;
+    border-top:0;
+}
+
+.list-item-name {
+    padding:13px 0 0 13px;
+    height:24px;
+    font-size:17px;
+    font-weight: bold;
+}
+
+.list-item-city {
+    padding:0 0 8px 13px;
+    height:20px;
+    line-height: 16px;
+}
+
+.list-item-city img {
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.list-item-city-name {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+}
