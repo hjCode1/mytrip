@@ -1,71 +1,69 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>마이트립 어드바이저</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="libs/jquery-ui-1.12.1/jquery-ui.min.css">
+  <meta charset="UTF-8">
+  <title>마이트립 어드바이저</title>
+
+  <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
+
+  <script src="libs/jquery-3.3.1.min.js"></script>
+  <script src="libs/jquery-ui/jquery-ui.min.js"></script>
+
+  <script src="scripts/scripts.js"></script>
 </head>
 <body>
-    <div id="container">
-        <header id="header">
+  <div id="container">
+    <div id="header">
+      <div>
+        <a href="index.html"><span></span></a>
+        <div class="menu-items right">
+          <a href="mytrip.html">마이트립</a>
+          <img src="images/line_maintop_gray.png" />
+          <a href="register.html">회원가입</a>
+        </div>
+      </div>
+    </div>
+    <div id="body">
+      <div id="title-text" class="lg-text">어디로 떠나볼까요?</div>
+      <div id="title-sub-text" class="md-text">Where do you want to go?</div>
+      <div id="search-panel">
+        <form id="form-search">
+          <div class="panel-block">
+            <label for="from">일정이 언제에요?</label>
             <div>
-                <a href="index.html"><span></span></a>
-                <div class="menu-items right">
-                    <a href="mytrip.html">마이트립</a>
-                    <img src="/image/line_maintop_gray.png" alt="">
-                    <a href="register.html">회원가입</a>
-                </div>
+              <input type="text" id="from" readonly />
             </div>
-        </header>
-        <div id="body">
-            <div id="title-text" class="lg-text">어디로 떠나볼까요?</div>
-            <div id="title-sub-text" class="md-text">Where do you want to go?</div>
-            <div id="search-panel">
-                <form action="" id="form-search">
-                    <div class="panel-block">
-                        <label for="from">일정이 언제에요?</label>
-                        <div>
-                            <input type="text" id="from" readonly>
-                        </div>
-                    </div>
-                    <div class="panel-block">
-                        <label for="to">언제까지에요?</label>
-                        <div>
-                            <input type="text" id="to" readonly>
-                        </div>
-                    </div>
-                    <div class="panel-block no-margin">
-                        <button type="submit" class="btn-search">
-                            <img src="image/icon_search_on.png" alt="">
-                            검색
-                        </button>
-                    </div>
-                </form>
+          </div>
+          <div class="panel-block">
+            <label for="to">언제까지에요?</label>
+            <div>
+              <input type="text" id="to" readonly />
             </div>
-            <div id="list-bg">
-                <div id="list-panel"></div>
-            </div>
-        </div>
-        <!-- 템플릿 -->
-        <div id="list-item-template" class="list-item">
-            <img class="list-item-image" src="" alt="">
-            <div class="list-item-desc">
-                <div class="list-item-name"></div>
-                <div class="list-item-city">
-                    <img src="image/icon_list_location.png" alt="">
-                    <div class="list-item-city-name"></div>
-                </div>
-            </div>
-        </div>
-        <!-- 템플릿 end -->
+          </div>
+          <div class="panel-block no-margin">
+            <button type="submit" class="btn-search">
+              <img src="images/icon_search_on.png" />
+              검색
+            </button>
+          </div>
+        </form>
+      </div>
+      <div id="list-bg">
+        <div id="list-panel"></div>
+      </div>
     </div>
 
-    <script src="libs/jquery-3.4.1.min.js"></script>
-    <script src="libs/jquery-ui-1.12.1/jquery-ui.min.js"></script>
-    <script src="js/main.js"></script>
+    <div id="list-item-template" class="list-item">
+      <img class="list-item-image" />
+      <div class="list-item-desc">
+        <div class="list-item-name"></div>
+        <div class="list-item-city">
+          <img src="images/icon_list_location.png" />
+          <div class="list-item-city-name" />
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

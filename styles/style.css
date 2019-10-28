@@ -235,3 +235,77 @@ button:hover {
     font-size: 14px;
     vertical-align: middle;
 }
+
+#body.detail {
+    background:#f6f7f7;
+}
+
+.detail-container {
+    padding:20px;
+    margin:130px auto 70px;
+    width:1080px;
+    background:#fff;
+}
+
+.detail-header {
+    position: relative;
+    padding:7px 0 3px;
+    line-height: 20px;
+}
+
+.detail-header img {
+    vertical-align: middle;
+}
+
+.detail-header .detail-header-name {
+    display:inline-block;
+    margin-left:3px;
+    font-size:18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.detail-header .detail-header-city-name {
+    display: inline-block;
+    font-size:15px;
+    color:#909090;
+    vertical-align: middle;
+}
+
+.detail-header button {
+    position: absolute;
+    right:0;
+    top:0;
+    padding:7px 10px;
+    font-size:14px;
+    color:#fff;
+    background:#4299e0;
+    border:0;
+}
+
+#detail-images {
+    max-width: 100%;
+    height:400px;
+    background: #000;
+    margin: 10px 0 30px;
+}
+
+.detail-desc {
+    margin-bottom: 30px;
+}
+
+.detail-title {
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.detail-desc .detail-desc-text {
+    font-size:15px;
+    color:#757575;
+}
+
+#map {
+    width:100%;
+    height:300px;
+}
+
